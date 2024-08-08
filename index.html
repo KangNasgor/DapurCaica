@@ -134,40 +134,67 @@
         </h1>
         <p class="contentproducttitledesc">Tasty Foods, Just for You.</p>
       </div>
-      <div class="products mb-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        <div class="card col-sm-3 product-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="products mb-5">
+        <div class="card col-sm-3 product-card" data-bs-toggle="modal" data-bs-target="#exampleModalRebus">
           <img src="assets/pangsitCrop.jpg" class="card-img-top" alt="..." />
           <div class="card-body products-body">
             <h5 class="card-title">Wonton Rebus Spicy</h5>
             <p class="card-text">Dapur Caica</p>
           </div>
         </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
+        <div class="modal fade" id="exampleModalRebus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">
-                  Modal title
+                  Wonton Rebus Spicy
                 </h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">Modal</div>
+              <div class="modal-body d-flex gap-3">
+                <img src="assets/pangsitCrop.jpg" class="mb-1" width="250" height="250">
+                <div class="product-desc d-flex flex-column justify-content-center">
+                  <h1 class="fs-5">Wonton Rebus Spicy</h1>
+                  <p>Wonton rebus isi daging giling dilapisi kulit pangsit serta ditambah dengan minyak cabai yang pedas</p>
+                </div>
+              </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
                   Close
-                </button>
-                <button type="button" class="btn btn-primary">
-                  Save changes
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div class="card col-sm-3 product-card">
+        <div class="card col-sm-3 product-card" data-bs-toggle="modal" data-bs-target="#exampleModalGoreng">
           <img src="assets/dumplingCrop.jpg" class="card-img-top" alt="..." />
           <div class="card-body products-body">
             <h5 class="card-title">Wonton Goreng Chili Oil</h5>
             <p class="card-text">Dapur Caica</p>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalGoreng" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Wonton Goreng Chili Oil
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body d-flex gap-3">
+                <img src="assets/dumplingCrop.jpg" class="mb-1" width="250" height="250">
+                <div class="product-desc d-flex flex-column justify-content-center">
+                  <h1 class="fs-5">Wonton Goreng Chili Oil</h1>
+                  <p>Wonton goreng isi daging giling dilapisi kulit pangsit serta ditambah dengan minyak cabai yang pedas</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -307,7 +334,7 @@
       </div>
     </section>
     <section id="contacts">
-      <div class="contactus d-block d-md-flex container">
+      <div class="contactus d-block d-md-flex">
         <div class="contactus1 col-md-8 col-lg-9">
           <h1>Contact us</h1>
           <p>
@@ -316,7 +343,7 @@
           </p>
         </div>
         <div class="contactus2 col-md-4 col-lg-3">
-          <button class="btn btn-warning">CONTACT US</button>
+          <button class="btn btn-warning"><a href="https://api.whatsapp.com/send/?phone=%2B6285647301929&text&type=phone_number&app_absent=0" target="_blank">CONTACT US</a></button>
         </div>
       </div>
     </section>
